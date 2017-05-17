@@ -1,0 +1,262 @@
+    html {
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        background: url(../images/background.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: rgb(25, 25, 25);
+        color: rgb(255, 255, 255);
+        font-size: 3em;
+        font-family: 'Baloo', sans-serif;
+        font-size: 75px;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    footer {
+        background-color: rgba(28, 28, 28, 0.96);
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        font-family: 'Montserrat', serif;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    @keyframes animation {
+        from {
+            transform: scale(0.5);
+            margin-left: 100%;
+            width: 300%;
+        }
+        to {
+            transform: scale(1);
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    @-webkit-keyframes animation {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    .animation {
+        animation-name: animation;
+        animation-duration: 2s;
+    }
+    
+    nav ul {
+        padding-top: 25px;
+        /*width: 1000px;*/
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav {
+        background-color: #1C1C1C;
+        height: 50px;
+        box-shadow: 0px -20px 32px 23px rgba(0, 0, 0, 0.88);
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+    nav ul ul {
+        display: none;
+    }
+    
+    nav ul li {
+        background-color: rgb(28, 28, 28);
+    }
+    
+    nav ul li:hover > ul {
+        display: inline;
+    }
+    
+    nav li {
+        display: inline-table;
+        border-right: 1px solid rgb(255, 255, 255);
+        line-height: 50px;
+        padding: 0;
+    }
+    
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a:hover {
+        background-color: rgb(52, 52, 52);
+        margin: 0px;
+    }
+    
+    .intro {
+        width: 50%;
+        float: left;
+        margin: 20px 50px 50px 50px;
+    }
+    
+    .intro p {
+        width: 530px;
+    }
+    
+    iframe {
+        width: 530px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    
+    .nyheter {
+        width: 530px;
+        border: 3px ridge rgb(106, 106, 106);
+        height: 440px;
+        background-color: white;
+        margin: 50px 0 50px 50px;
+        border-radius: 5px;
+    }
+    
+    .text {
+        font-size: 15px;
+    }
+    
+    .datum {
+        font-size: 10px
+    }
+    
+    .red-font {
+        color: red;
+    }
+    
+    form {
+        float: left;
+        width: 30%;
+        margin-left: 50px;
+    }
+    
+    form i {
+        font-size: 13px;
+    }
+    
+    #meddelande {
+        width: 350px;
+        height: 150px;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+    .omOss {
+        float: left;
+        width: 600px;
+        margin-left: 50px;
+    }
+    
+    #search {
+        float: left;
+        margin: -30px 0 0 75px;
+        width: 202px;
+    }
+    
+    figure {
+        display: inline-block;
+        vertical-align: top;
+        padding: 30px;
+    }
+    
+    figure img {
+        border: 1px solid rgb(52, 52, 52);
+        box-shadow: 0px 5px 31px -5px rgba(41, 41, 41, 1);
+        background-color: white;
+        width: 300px;
+    }
+    
+    .pris {
+        color: red;
+        text-align: center;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-weight: bold;
+        width: 300px;
+    }
+    
+    .upper {
+        text-align: center;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        width: 300px;
+        height: 40px;
+    }
+    
+    .forstaraden {
+        display: inline-block;
+    }
+    
+    .andraraden {
+        display: inline-block;
+    }
+    
+    .tillverkare {
+        box-shadow: 0px 5px 31px -5px rgba(41, 41, 41, 1);
+        background-color: white;
+        height: 500px;
+        width: 400px;
+        display: inline-block;
+        border: solid black 1px;
+        float: left;
+        margin: 70px 50px 0 30px;
+    }
+    
+    .tillverkare li {
+        list-style: circle;
+        margin-left: 80px;
+    }
+    
+    .tillverkare h2 {
+        margin-top: 30px;
+    }
+    
+    #skicka a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    article {
+        width: 800px;
+        margin: 0 0 0 50px;
+        box-shadow: 0px 5px 31px -5px rgba(41, 41, 41, 1);
+        border: solid black 1px;
+        background-color: white;
+    }
+    
+    article li {
+        margin: 0 0 20px 20px;
+    }
