@@ -4,6 +4,7 @@
         font-family: 'Montserrat', sans-serif;
         background: url(../images/background.jpg) no-repeat center center fixed;
         background-size: cover;
+        min-height: 100%;
     }
     
     *,
@@ -31,6 +32,8 @@
         background-color: rgba(28, 28, 28, 0.96);
         color: white;
         position: fixed;
+        height: 30px;
+        line-height: 30px;
         width: 100%;
         bottom: 0;
         text-align: center;
@@ -182,8 +185,9 @@
     
     #search {
         float: left;
-        margin: -30px 0 0 75px;
+        margin: -20px 0 0 75px;
         width: 202px;
+        padding: 0;
     }
     
     figure {
