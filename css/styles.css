@@ -181,7 +181,8 @@
     .omOss {
         float: left;
         width: 600px;
-        margin-left: 50px;
+        margin: 0px 0x 0px 50px;
+        padding-bottom: 30px;
     }
     
     #search {
